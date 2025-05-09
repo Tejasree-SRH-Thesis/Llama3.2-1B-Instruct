@@ -54,7 +54,7 @@ Once you run Step6, you can upload PDF files of scientific documents and test th
 - **Using My Existed Account**:
   You can directly use my hugging face token. The necessary details have been encapsulated within the code.
 - **Google Collab File**:
-  A goggle collab file,`Llama3Gradio.ipynb` is uploaded here. You can donwload and run the same code present in each cell directly in collab environment bypassing installation of Anaconda and following all 6 steps. 
+  A goggle collab file,`Llama3Gradio.ipynb` is uploaded here. You can download and run the same code present in each cell directly in collab environment bypassing installation of Anaconda and following all 6 steps. 
   
 ### Tech Stack:
 - Python: Core programming language
