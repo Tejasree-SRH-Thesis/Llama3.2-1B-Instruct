@@ -38,7 +38,10 @@ export HUGGINGFACE_TOKEN=your_token_here
 ```bash
 set HUGGINGFACE_TOKEN=your_token_here
 ```
-### Step5 Run the App
+### Step5 Change the directory path for model download
+The model_path variable contains a directory path where it stores the downloaded model. Please change it your local repository and also, please update main() of the same variable before triggering step6
+
+### Step6 Run the App
 
 ```bash
 python main.py
@@ -51,12 +54,12 @@ Once you run Step5, you can upload PDF files of scientific documents and test th
 - **Using My Existed Account**:
   You can directly use my hugging face token. The necessary details have been encapsulated within the code.
 - **Google Collab File**:
-  A goggle collab file,`Gemma_Gradio.ipynb` is uploaded here. You can donwload and run the same code present in each cell directly in collab environment bypassing installation of Anaconda and following all 5 steps. 
+  A goggle collab file,`Llama3Gradio.ipynb` is uploaded here. You can donwload and run the same code present in each cell directly in collab environment bypassing installation of Anaconda and following all 6 steps. 
   
 ### Tech Stack:
 - Python: Core programming language
 - Transformers: To download and use pre-trained models from Hugging Face, we utilize the transformers library, which provides simple APIs for accessing and integrating state-of-the-art language models into Python projects.
-- Llama3-3.1B-Instruct Model : AI model for natural language understanding and generation
+- Llama3.2-1B-Instruct Model : AI model for natural language understanding and generation
 
 ### Acknowledgments
 Special thanks to Professor Binh Vu and SRH Heidelberg for supporting this project.
