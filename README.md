@@ -1,6 +1,6 @@
 # Automated Metadata Extraction App
 
-This project presents an automated system for extracting academic metadata from scientific documents using small-scale Large Language Models (LLMs) with fewer than 3 billion parameters. The solution leverages instruction-tuned models like Llama-3.2-1B-Instruct-GGUF and features an interactive Gradio web interface for real-time validation and user feedback. Our results show that small LLMs can achieve metadata extraction performance comparable to traditional NLP methods, while requiring significantly less computational resources. This project aims to improve the efficiency, scalability, and accessibility of academic metadata management across diverse publication formats.
+This project presents an automated system for extracting academic metadata from scientific documents using small-scale Large Language Models (LLMs) with fewer or slightly greater than 3 billion parameters. The solution leverages instruction-tuned models like Llama-3.2-1B-Instruct-GGUF and features an interactive Gradio web interface for real-time validation and user feedback. Our results show that small LLMs can achieve metadata extraction performance comparable to traditional NLP methods, while requiring significantly less computational resources. This project aims to improve the efficiency, scalability, and accessibility of academic metadata management across diverse publication formats.
 
 ## Getting Started
 Follow these steps to get a copy of automated metadata extraction app and running on your local machine for development and testing purposes.
