@@ -38,6 +38,7 @@ def load_model(model_path):
         return llm
     except Exception as e:
         print(f"Error loading model: {e}")
+        return None
 
 
 def extract_json(text):
