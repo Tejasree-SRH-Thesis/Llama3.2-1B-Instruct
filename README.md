@@ -39,14 +39,14 @@ export HUGGINGFACE_TOKEN=your_token_here
 set HUGGINGFACE_TOKEN=your_token_here
 ```
 ### Step5 Change the directory path for model download
-The model_path variable contains a directory path where it stores the downloaded model. Please change it your local repository and also, please update main() of the same variable before triggering step6
+The `model_path` variable contains a directory path where it stores the downloaded model. Please change it your local repository and also, please update main() of the same variable before triggering step6
 
 ### Step6 Run the App
 
 ```bash
 python main.py
 ```
-Once you run Step5, you can upload PDF files of scientific documents and test the metadata extraction.
+Once you run Step6, you can upload PDF files of scientific documents and test the metadata extraction.
 
 ### Notes:
 - **Using Local PDF Documents**:
