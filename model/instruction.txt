@@ -1,0 +1,6 @@
+## Download the phi 3.5 model Model:
+
+Llama-3.2-1B-Instruct-Q4_K_M.gguf
+
+## From the following link:
+https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/blob/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf
