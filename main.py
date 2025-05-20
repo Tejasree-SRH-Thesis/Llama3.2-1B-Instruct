@@ -21,7 +21,7 @@ hf_token = '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'
 model_path = hf_hub_download(
     repo_id="bartowski/Llama-3.2-1B-Instruct-GGUF",
     filename="Llama-3.2-1B-Instruct-Q4_K_M.gguf", 
-    local_dir="/content/models/llama3",       #change the model path of your own folder
+    local_dir="model",       #change the model path of your own folder
     local_dir_use_symlinks=False
 )
 
@@ -112,7 +112,7 @@ def process_pdf(pdf_file):
     return metadata
 
 def main():
-    model_path = "/content/models/llama3/Llama-3.2-1B-Instruct-Q4_K_M.gguf"
+    model_path = "model/Llama-3.2-1B-Instruct-Q4_K_M.gguf"
     global model
     model = load_model(model_path)
     #Gradio interface
