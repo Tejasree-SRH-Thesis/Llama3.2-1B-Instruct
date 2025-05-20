@@ -64,8 +64,7 @@ Only return the JSON, nothing else.
   "DOI": "DOI if available",
   "Keywords": ["Keyword1", "Keyword2"],
   "Abstract": "Abstract text",
-  "Document Type": "Research Paper, Thesis, etc.",
-  "Number of References": 10
+  "Document Type": "Research Paper, Thesis, etc."
 }
 
 Only return valid JSON. Do not include explanations or markdown.
